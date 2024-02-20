@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    /* background-image: url(/Practice-Projects/Images/second-bg-form-img.jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/Image/bg-img.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 0.85rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main Starts Here */
+
+.login-form {
+    width: 26vw;
+    height: 75vh;
+    max-height: 420px;
+    backdrop-filter: blur(15px);
+    border: 1px solid #b7bcc6c4;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+
+/* Label and Inputs Starts here */
+
+label {
+    display: block;
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+    border: 2px solid #8493ad;
+    border-radius: 4px;
+    height: 2.3em;
+    width: 22vw;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+::placeholder {
+    color: rgb(192, 189, 189);
+}
+
+input:focus {
+    border: 2px dotted #8493ad;
+    outline: none;
+}
+
+/* Button Starts Here */
+
+button {
+    background-color: #b586b9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    height: 3em;
+    width: 22.2vw;
+    margin-top: 2vh;
+}
+
+button:hover {
+    background-color: #68496b;
+}
