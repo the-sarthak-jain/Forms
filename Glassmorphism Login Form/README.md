@@ -1,2 +1,2 @@
 # Glassmorphism-Login-Form
-> Glassmorphism-inspired login form crafted with HTML and CSS for a stylish user authentication experience.
+> A sleek and modern login form designed with glassmorphism effect using HTML and CSS, adding a touch of elegance to your user authentication process.
