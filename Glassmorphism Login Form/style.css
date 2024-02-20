@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-image: url(./Image/bg-img.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Main Starts Here */
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45vw;
+    height: 60vh;
+    max-height: 340px;
+    max-width: 600px;
+    backdrop-filter: blur(20px);
+    border: 2px solid #b7bcc6c4;
+    border-radius: 4px;
+}
+
+/* Left Side of Main Container */
+
+.left-side {
+    background-color: #2a3e5af3;
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    justify-self: flex-start;
+}
+
+.left-side p {
+    margin-top: 30%;
+    margin-bottom: 5%;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Left Side Bottom-Button Starts here */
+
+.left-side button {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+    height: 10%;
+    width: 80%;
+    margin-top: 5%;
+    text-align: left;
+    border-radius: 4px;
+    border: none;
+}
+
+.left-side button:hover {
+    background-color: #3c85aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.left-side button i {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+/* Right Side of Main Container */
+
+.right-side {
+    width: 55%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.084);
+}
+
+#heading {
+    font-size: 1.2rem;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-weight: 700;
+}
+
+.right-side p {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+a {
+    color: #3c85aa;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: white;
+    font-weight: 700;
+}
+
+/* Right Side Form Starts here */
+
+form {
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+/* Label and Inputs Starts here */
+
+.label {
+    display: block;
+    font-size: 0.85rem;
+    margin-bottom: 2%;
+}
+
+.input {
+    height: 2.5em;
+    width: 83%;
+    margin-bottom: 5%;
+    background-color: transparent;
+    border: 2px solid rgba(239, 237, 237, 0.95);
+    border-radius: 4px;
+    padding-left: 5%;
+    color: white;
+}
+
+.input:hover {
+    border: 2px dotted #3c85aa;
+    outline: none;
+}
+
+.input:focus {
+    border: 2px solid #3c85aa;
+    outline: none;
+}
+
+#password {
+    margin-bottom: 6%;
+}
+
+/* Login / Submit button */
+
+#submit {
+    height: 2.5em;
+    width: 89%;
+    border-radius: 4px;
+    border: none;
+}
+
+#submit:hover {
+    background-color: #3c85aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Right Container Bottom Part (Remember Me / Forgot Password?) */
+
+.right-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 81%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+    width: 58%;
+}
+
+.check-box input[type=checkbox] {
+    height: 15px;
+    width: 15px;
+}
+
+.check-box label {
+    font-size: 0.8rem;
+    margin-left: 3%;
+}
+
+.forgot-pass {
+    width: 43%;
+}
+
+.forgot-pass a {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.forgot-pass a:hover {
+    color: #3c85aa;
+}
